@@ -4,14 +4,9 @@
 </h1>
   
 <!-- form -->
-<form action="/action_page.php">
-  First name:<br>
-  <input type="text" name="firstname" value="Mickey">
-  <br>
-  Last name:<br>
-  <input type="text" name="lastname" value="Mouse">
-  <br><br>
-  <input type="submit" value="Submit">
-</form> 
+<form id="form" onsubmit="return false;">
+<input   style=position:absolute;top:80%;left:5%;width:40%; type="text" id="userInput">
+<input   style=position:absolute;top:50%;left:5%;width:40%; type="submit"    onclick="name()">
+</form>
 
 </html>
